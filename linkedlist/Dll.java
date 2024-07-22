@@ -77,9 +77,6 @@ public class Dll {
         head=newNode;
         return head;
     }
-
-   
-
     //insert before the given position
     Node insertAtn(Node head,int n,int val){
         //if the n is equals to  1 then call insert at head
@@ -108,8 +105,6 @@ public class Dll {
         }
         return head;
     }
-    
-
     //function to insert before the given node
     Node insertAtNode(Node head, int node, int val){
         if(head.data==node){
@@ -134,9 +129,6 @@ public class Dll {
        
         return head;
     }
-
-
-
     public static void main(String[] args) {
         Dll list=new Dll();
         int array[]={1,2,3,4,5,6,7,8,9};
